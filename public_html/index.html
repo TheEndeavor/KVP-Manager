@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Key-Value-Pair Manager</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+		
+		<script src="dist/bundle.js" type="text/javascript"></script>
+		
+	</head>
+	<body>
+		<ul></ul>
+		<div class="controls">
+			<input class="add-input no-value" type="text" value="<key>=<value>" />
+			<span class="error-message"></span>
+			<input class="add" type="button" value="Add" />
+			<input class="remove" type="button" value="Remove Selected" />
+			<input class="clear" type="button" value="Clear" />
+			<input class="download-xml" type="button" value="Download as XML" />
+			<input class="download-json" type="button" value="Download as JSON" />
+			<input class="sort-by-name" type="button" value="Sort by Name" />
+			<input class="sort-by-value" type="button" value="Sort by Value" />
+		</div>
+		<ul class="kvp-list"></ul>
+	</body>
+</html>
